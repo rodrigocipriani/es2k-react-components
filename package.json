@@ -1,11 +1,11 @@
 {
-  "name": "es2x-react",
-  "version": "1.0.22",
-  "description": "es2x react components",
+  "name": "es2k-react-components",
+  "version": "0.0.2",
+  "description": "es2k React Components",
   "private": true,
   "app": {
     "port": 3010,
-    "path": "es2x-react"
+    "path": "es2k-react-components"
   },
   "scripts": {
     "test": "mocha",
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "https://github.com/ivmarcos/es2k-react-components.git"
   },
-  "author": "",
+  "author": "ES2k",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
@@ -63,6 +63,7 @@
     "prop-types": "^15.5.10",
     "react-styleguidist": "^6.0.10",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
   }
 }

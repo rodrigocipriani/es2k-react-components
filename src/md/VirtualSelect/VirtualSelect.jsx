@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import List from 'react-virtualized/dist/commonjs/List';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 
-import { removeSymbols } from './../lib/strings';
+import { removeSymbols } from './../../lib/strings';
 
 import './VirtualSelect.scss';
 
