@@ -1,0 +1,68 @@
+{
+  "name": "es2x-react",
+  "version": "1.0.22",
+  "description": "es2x react components",
+  "private": true,
+  "app": {
+    "port": 3010,
+    "path": "es2x-react"
+  },
+  "scripts": {
+    "test": "mocha",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "start": "yarn run styleguide",
+    "build": "babel ./src -d ./lib",
+    "deploy": "yarn release && yarn build && gulp deploy",
+    "build:scss": "node-sass ./src/styles/ -o ./lib",
+    "start:server": "node server",
+    "deploy:server": "gulp deploy:server",
+    "release": "yarn version --new-version patch",
+    "preversion": "mocha",
+    "version": "git add --all",
+    "postversion": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivmarcos/es2k-react-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-md": "^1.0.15",
+    "react-sortable-hoc": "^0.6.3",
+    "react-virtualized": "^9.7.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "history": "^4.6.3",
+    "mocha": "^3.5.0",
+    "node-sass": "^4.5.3",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "prop-types": "^15.5.10",
+    "react-styleguidist": "^6.0.10",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
+  }
+}

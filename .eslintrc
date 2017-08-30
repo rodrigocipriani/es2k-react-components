@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "indent": 2,
+    "max-len": "warn",
+    "camelcase": "warn",
+    "react/forbid-prop-types": "warn",
+    "padded-blocks": [
+      "error",
+      {
+        "blocks": "always"
+      }
+    ],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  },
+  "plugins": [
+    "import"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
