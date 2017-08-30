@@ -1,0 +1,16 @@
+@import '../styles/react-md.scss';
+
+.VirtualSelect-menu{
+    position: absolute !important;
+    background: #fff;
+    z-index: 1;
+}
+.VirtualSelect-menu-item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: default;
+    &:hover{
+      background: rgba(0,0,0,.12)
+    }
+}
