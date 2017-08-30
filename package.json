@@ -29,8 +29,6 @@
   "author": "ES2k",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "lodash": "^4.17.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-md": "^1.0.15",
@@ -39,6 +37,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.1",
