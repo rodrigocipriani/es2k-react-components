@@ -1,5 +1,7 @@
 # es2k-react-components : ES2k - Ecma Script 2xxx 
-React MAterial Components
+React Material Components
+
+Docs: [https://rodrigocipriani.github.io/es2k-react-components/] 
 
 ## How to use
 

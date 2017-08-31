@@ -4,7 +4,7 @@ module.exports = {
   components: 'src/**/*.jsx',
   serverHost: 'localhost',
   styleguideDir: 'docs',
-  title: 'es2k react components style guide',
+  title: 'ES2k React Components',
   webpackConfig: {
     module: {
       rules: [
