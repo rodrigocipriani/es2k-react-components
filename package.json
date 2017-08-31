@@ -1,8 +1,7 @@
 {
   "name": "es2k-react-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "es2k React Components",
-  "private": true,
   "app": {
     "port": 3010,
     "path": "es2k-react-components"
@@ -29,6 +28,7 @@
   "author": "ES2k",
   "license": "ISC",
   "dependencies": {
+    "material-ui": "next",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-md": "^1.0.15",
