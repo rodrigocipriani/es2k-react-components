@@ -1,6 +1,6 @@
 {
   "name": "es2k-react-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "es2k React Components",
   "app": {
     "port": 3010,
