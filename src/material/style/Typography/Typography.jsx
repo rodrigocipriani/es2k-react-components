@@ -6,7 +6,7 @@ import { default as T } from 'material-ui/Typography';
  *
  * **Import:**
  *
- * `import Typography from 'es2k-react-components/style/Typography';`
+ * `import Typography from 'es2k-react-components/material/style/Typography';`
  *
  * **Example:**
  *

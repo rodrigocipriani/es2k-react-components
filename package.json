@@ -1,6 +1,6 @@
 {
   "name": "es2k-react-components",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "es2k React Components",
   "app": {
     "port": 3010,
@@ -11,7 +11,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "start": "yarn run styleguide",
-    "build": "babel ./src -d ./lib",
+    "build": "babel ./src -d .",
     "deploy": "yarn release && yarn build && gulp deploy",
     "build:scss": "node-sass ./src/styles/ -o ./lib",
     "start:server": "node server",
