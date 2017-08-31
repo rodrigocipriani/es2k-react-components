@@ -3,7 +3,7 @@ const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
   components: 'src/**/*.jsx',
   serverHost: 'localhost',
-  styleguideDir: 'public',
+  styleguideDir: 'docs',
   title: 'es2k react components style guide',
   webpackConfig: {
     module: {
