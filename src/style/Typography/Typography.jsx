@@ -11,9 +11,9 @@ import { default as T } from 'material-ui/Typography';
  * **Example:**
  *
  * `
-  <Typography type="display4" gutterBottom>
-    Display 4
-  </Typography>
+ <Typography type="display4" gutterBottom>
+ Display 4
+ </Typography>
  * `
  *
  * **Todos:*
@@ -23,9 +23,9 @@ import { default as T } from 'material-ui/Typography';
 const Typography = (props) => {
   console.log('props', props);
   return (
-    <T {...props}></T>;
+    <T {...props}></T>
   );
-};
+}
 
 Typography.propTypes = {
   /**
